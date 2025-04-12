@@ -1,0 +1,71 @@
+.menu__desplegable {
+    position: absolute;
+    top: 13%;
+    left: 85%;
+    display: none;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #278C62;
+    border: 1px solid #FDFBFF;
+    z-index: 1000;
+}
+
+.menu__desplegable div{
+    background: #FF5722;
+    padding: 0.1rem 0.9rem ;
+    margin: 0.5rem 0rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.menu__desplegable a {
+    font-family: BebasNeue_Dw;
+    text-decoration: none;
+    font-size: 2.5vw;
+    margin: 1rem 0rem;
+    color: white;
+}
+
+/*Media Queries para el menus desplegable*/
+@media screen and (min-width:  900px) and (max-width: 1280px) {
+    .menu__desplegable {
+        top: 13%;
+        left: 74%;
+    }
+    
+    .menu__desplegable a {
+        font-size: 4.5vw;
+    } 
+}
+@media screen and (min-width:  700px) and (max-width: 900px) {
+    .menu__desplegable {
+        top: 13%;
+        left: 68%;
+    }
+    
+    .menu__desplegable a {
+        font-size: 5.5vw;
+    } 
+}
+@media screen and (min-width:  500px) and (max-width: 700px) {
+    .menu__desplegable {
+        top: 13%;
+        left: 66%;
+    }
+    
+    .menu__desplegable a {
+        font-size: 5.5vw;
+    } 
+}
+@media screen and (min-width:  300px) and (max-width: 500px) {
+    .menu__desplegable {
+        top: 8%;
+        left: 62%;
+    }
+    
+    .menu__desplegable a {
+        font-size: 5.5vw;
+    } 
+}
