@@ -334,6 +334,21 @@ footer h4, footer p, footer a {
         
     }
 
+    .header_logo {
+        width: 5vw;
+        justify-content: center;
+        display: flex;
+        align-self: center;
+        background: #FF5722;
+        padding: 0.1rem;
+        border-radius: 1rem;
+    }
+
+    .header_logo img {
+        width: 1rem;
+        height: 1rem;
+    }
+
     .main__img {
         background-repeat: no-repeat;
         padding: 5vh 0;
@@ -401,3 +416,4 @@ footer h4, footer p, footer a {
 
     }
 }
+/*Fin Queries para los demas elementos*/
