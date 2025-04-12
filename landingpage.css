@@ -256,7 +256,7 @@ footer h4, footer p, footer a {
     }
 }
 
-@media  screen and (min-width: 500px) and (max-width: 700px) {
+@media  screen and (min-width: 300px) and (max-width: 700px) {
 
     header a {
         font-size: 2.6vh;
